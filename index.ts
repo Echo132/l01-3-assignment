@@ -11,9 +11,3 @@ function sentenceSplitter(sentence: string): string[] {
     function combineToSentence(...words: string[]): string {
         return words.join(' ');
   }
-  
-    let words = ["This", "is", "a", "sentence", "created", "from", "an", "array."];
-  
-    let sentence = combineToSentence(...words);
-  
-    console.log(sentence);
